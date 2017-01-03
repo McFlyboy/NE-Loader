@@ -44,8 +44,7 @@ public class Main{
 		stop();
 	}
 	private void run(){
-		System.out.println("NaissanceE-Loader v" + getVersion());
-		System.out.println("Created by McFlyboy\n");
+		System.out.println("NaissanceE-Loader v" + getVersion() + " - Created by McFlyboy\n");
 		File settings = new File("NE-Loader_settings.cfg");
 		if(!settings.exists()){
 			return;
